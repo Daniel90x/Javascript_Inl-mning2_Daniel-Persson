@@ -7,26 +7,42 @@ body {
 header {
   background-color: darkgreen;
   color: white;
+  
   position: sticky;
   text-align: left;
+  padding-top: 10%;
   font-size: 18px;
   letter-spacing: 3px;
   padding-left: 10px;
+  height: 100px;
+  width: 100%;
   
 }
 
 .search-container {
   background-color: seagreen;
-  text-align: center;
+  text-align: center;               
+  height: 150px;
+  width: 100%;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
   
 
+ 
 
 }
 
 .search-container #search-bar {
-  display: inline-block;
+  text-align: left; /* texten dycker upp i vänstra delen av search widnwon */
   width: 250px;
-  height: 25px;
+  height: 20px;
+  
+ 
+  
+  
+
+
  
 
 
@@ -34,6 +50,36 @@ header {
 
 .search-container #search-button {
   height: 25px;
+
+
+
+
+}
+
+.s-checkbox {
+  display: inline-block;
+  color: red;
+  padding-top: 30px;
+  padding-right: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  text-align: center;
+
 
 
 
