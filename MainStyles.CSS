@@ -8,6 +8,10 @@ header {
   background-color: green;
   color: white;
   position: sticky;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 3px;
+  padding-left: 10px;
   
   
 }
