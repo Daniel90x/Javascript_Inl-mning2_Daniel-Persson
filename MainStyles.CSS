@@ -37,7 +37,7 @@ header {
 
 }
 
-.search-container #search-bar {
+.search-container #searchBar {
   grid-column: 3 / span 5;
   text-align: left; /* texten dycker upp i vänstra delen av search widnwon */
   position:sticky;
@@ -54,7 +54,7 @@ header {
 
 }
 
-.search-container #search-button {
+.search-container #searchButton {
   height: 25px;
   grid-column: 5 / span 7;
 
@@ -62,7 +62,7 @@ header {
 
 }
 
-.s-checkbox {
+.lcheckBox {
   grid-column: 9 / span 12;
   color: red;
   
