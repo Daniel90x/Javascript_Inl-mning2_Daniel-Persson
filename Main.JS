@@ -1,4 +1,40 @@
 // Search funktion
+const searchButton = document.getElementById("searchButton");
+
+
+searchButton.EventListner("click", function() {
+  let searchResult = document.getElementById("searchBar").value; 
+
+  //Kalla på en clear metod WiP
+  if (searchResult != ""){
+    if ()
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 let searchBar = document.querySelector("#searchBar");
 searchBar.onchange = function(e){
@@ -8,6 +44,9 @@ searchBar.onchange = function(e){
 
 
 } 
+*/
+
+
 
  /*  pseudo-kod för inlämningsuppgift 2 */
     
@@ -22,6 +61,7 @@ searchBar.onchange = function(e){
   
 //Skapar APIER här under.....
 
+//Openweather
  function getCityWeatherUrl(cityName) {
    const weatherUrl = new URL("https://api.openweathermap.org/data/2.5/weather");
 
@@ -35,6 +75,7 @@ searchBar.onchange = function(e){
    return weatherUrl;
  }
 
+ // Foursquare
  function foursquareUrl(cityName) {
   const foursquarerUrl = new URL("https://api.foursquare.com/v2/venues/explore");
 
@@ -47,6 +88,26 @@ searchBar.onchange = function(e){
 
   return foursquarerUrl;
 }
+
+function getApi(){
+  try {
+    let answer = await fetch();
+
+    if(answer = true) {
+      let answerinJson = await answer.json();
+
+      return answerinJson;
+
+    }
+    else {
+      alert("Couldn't find the URL...");
+
+    }
+  } catch (error) {
+    console.log("Not working properly");
+}
+
+
 
 
 /*
