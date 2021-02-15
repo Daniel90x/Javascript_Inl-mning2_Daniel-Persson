@@ -62,7 +62,7 @@ header {
 
 }
 
-.lcheckBox {
+.sortofcheckBox {
   grid-column: 9 / span 12;
   color: red;
   
@@ -74,7 +74,7 @@ header {
 
 
 
-section {
+#sortSection {
   display: flex;
   grid-template-columns: repeat(12, 1fr);
   
@@ -82,7 +82,7 @@ section {
   
 }
 
-section > div {
+s#sortSection > div {
   border-width: 2px;
   border-color: black;
   border-style: solid;
@@ -110,7 +110,7 @@ section > div {
 
 
 
-
+/* FOOTER UNDER */
 
 footer {
   display: flex;
